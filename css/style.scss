@@ -81,14 +81,20 @@ $d5: 380px;
         align-items: $c;
         text-decoration: none;
         transition: .6s;
+        text-decoration: none;
 
         &:hover{
             transform: translateY(-10px);
         }
 
-        img{
-            max-width: 100%;
-            height: auto;
+        i{
+            color: orange;
+            font-size: 2em;
+            transition: .6s;
+
+            &:hover{
+                color: lighten(orange, 10%);
+            }
         }
     }
 }
