@@ -42,6 +42,7 @@ html {
   text-decoration: none;
   -webkit-transition: .6s;
   transition: .6s;
+  text-decoration: none;
 }
 
 .toTop .sigma:hover {
@@ -49,9 +50,15 @@ html {
           transform: translateY(-10px);
 }
 
-.toTop .sigma img {
-  max-width: 100%;
-  height: auto;
+.toTop .sigma i {
+  color: orange;
+  font-size: 2em;
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.toTop .sigma i:hover {
+  color: #ffb733;
 }
 
 body {
